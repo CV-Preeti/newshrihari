@@ -79,9 +79,10 @@
   background-image: url("assets/glowsign2s.png");
   background-size: cover;
   background-position: center;
-  width: 200px;
-  height: 80px;
+  width:500px;
+  height:80px;
 }
+ 
 
 .ul-flex {
   display: flex;
@@ -184,7 +185,7 @@
   background-repeat: no-repeat;
 }
 .gray-pack2 {
-  background-image: url("./assets/Trouser.jpg");
+  background-image: url("./assets/Trousercompress.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -245,7 +246,7 @@ a:hover {
   text-decoration: none;
 }
 
-.manufacturing {
+/*.manufacturing {
   margin-top: 100px;
 }
 /*
@@ -264,15 +265,7 @@ a:hover {
   height: 600px;
   width: 600px;
 }*/
-.imgwrapper5 {
-  margin: 10px;
-  height: 100%;
-  position: relative;
-  background-image: url("./assets/formal\ pant2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-}
+
 .black-bordr {
   padding: 10px;
   border: 10px solid rgb(155, 155, 155, 0.5);
@@ -281,7 +274,7 @@ a:hover {
 .imgwrapper1,
 .imgwrapper2,
 .imgwrapper3,
-.imgwrapper4 {
+.imgwrapper4,.imgwrapper5 {
   margin: 10px;
   background: linear-gradient(to right, rgb(219, 219, 219), white);
 
@@ -294,56 +287,115 @@ a:hover {
 .imgwrapper5:hover .c-tag {
   display: block;
 }
+.imgwrapper5 {
+ 
+  
+  height: 450px;
+ 
+}
 
 .imgwrapper1 {
-  background-image: url("./assets/kurta.jpg");
-
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
+ 
+ 
+  height: 450px;
   
 }
 .imgwrapper2 {
-  background-image: url("./assets/kurtajacketnew.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
+ 
+  
+ 
+  height: 450px;
+}
+.mainheader{
+  background-image: url("./assets/banner.png");
+background-size: cover;
+background-position: center;
+height:90vh;
 }
 .imgwrapper3 {
-  background-image: url("./assets/nehru\ jacket.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
+ 
+  
+  height: 450px;
 }
 .imgwrapper4 {
-  background-image: url("./assets/boys-shirt2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
+ 
+  
+  height: 450px;
 }
 .manurow2{
   margin-top:30px ;
 }
+.damara,.nobelman{
 
-@media only screen and (max-width: 768px) {
+
+height:100px;margin:10px 30px;}
+.whitediv{
+  background-color: rgba(209, 209, 209,0.7);
+  height:100px;
+  align-items: center;
+  width:100%;
+   padding:20px;
+    color:#48526b;
+    font-weight: 600;
+font-size:50px ;
+}
+
+@media only screen and (min-width:400px) and (max-width: 768px) {
   .cen-hed-div {
     width: auto;
   }
+ 
   .manurow2{
     margin-top:0px ;
   }
   .logoimg {
-    display: block;
-    width: 100%;
+   
+    width: 310px;
+  }
+  .mainheader .whitediv{
+    font-size:35px ;
+  
+  }
+  .mainheader  h1{
+    font-size: 28px;
+    line-height:40px ;
   }
   .navbar-nav{
     
     margin-right: auto;
     margin-left: 0px;
+  }
+}
+
+
+@media only screen and (max-width:400px){
+  .damara,.nobelman{
+    margin:10px;
+  }
+  .navbar-nav{
+    
+    margin-right: auto;
+    margin-left: 0px;
+  }
+  
+  .logoimg {
+   
+    width: 200px;
+  }
+  .mainheader .whitediv{
+    font-size:35px ;
+  
+  }
+  .mainheader  h1{
+    font-size: 28px;
+    line-height:40px ;
+  }
+  .cen-hed-div {
+    width: auto;
+  }
+ 
+  .manurow2{
+    margin-top:0px ;
   }
 }
 /*
